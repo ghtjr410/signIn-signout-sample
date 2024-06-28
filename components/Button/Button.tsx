@@ -18,8 +18,8 @@ const Button: React.FC<ButtonProps> = ({ text, onClick, variant = 'primary', cla
   return (
     <button
       onClick={onClick}
-      className={`${baseStyle} ${buttonStyle} ${className}`}  // Apply className
-      style={style}  // Apply style
+      className={`${baseStyle} ${buttonStyle} ${className}`} 
+      style={style} 
     >
       {text}
     </button>
